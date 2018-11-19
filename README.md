@@ -1,82 +1,8 @@
-# Webpack 4 Boilerplate for beginners
-A basic webpack 4 boilerplate for beginners to start with any JS/ES6 based project. This project uses basic html with scss. It includes working background images in scss as well as file loading in html. Uses Dev Server and Sourcemaps for easy debugging. 
-<br>
-## Guide
-This basic boilerplate is the final output of this comprehensive write up on Medium, plus several additions. I recommend to read this article to know the insight of how you can configure webpack from scratch.
-[Webpack 3 quickstarter: Configure webpack from scratch](https://medium.com/@nirjhor123/webpack-3-quickstarter-configure-webpack-from-scratch-30a6c394038a)
-<br>
-1. Navigate to the appropriate folder. This example uses the a folder on the desktop called "class projects" folder. NOTE: Start from your home directory "~".
+# Fresh Eats Demo
 
-```
-$ cd "desktop/class projects"
-```
+This website was built for a meal service company. It's a single page site with the purpose of quickly getting users to sign up for the service.
 
-2. Clone the webpack-starter into your "class projects" folder with the following command:
+The project was completed using Webpack to build the system, scss for styling and html for the layout. 
 
-```
-$ git clone https://github.com/rachy/webpack-starter.git
-```
-3. Change the name of webpack-starter to reflect the name of your project
+The colors and fonts follow the brand's styling. Bright images were used to aadd to the look and feel of the site. The layout's responsiveness was completed using css flexbox with media queries. 
 
-4. Change your directory to the project folder. 
-
-```
-$ cd new-project
-```
-
-5. Install dependencies
-
-```
-$ npm install
-```
-
-
-6.  Develop locally with webpack-dev-server
-
-```
-$ npm run dev
-```
-
-## For Development version
-
-```
-$ npm run dev
-```
-
-In your browser, navigate to: [http://localhost:2000/](http://localhost:2000/)
-
-## For Production version
-
-```
-$ npm run build
-```
-This is the final distribution version of your project located in the /dist folder
-
-### To restart your project after leaving it
-
-1. Navigate to your project folder in terminal
-
-2. Run Dev. 
-
-```
-$ npm run dev
-```
-
-Note: it is safe to move from dev to build and build to dev. Just run [control] "c" to cancel dev processes if in the dev version.
- 
-## Loaders and Plugins used in this boilerplate
-
-### Loaders
-* babel-loader
-* html-loader
-* sass-loader
-* css-loader
-* style-loader
-* file-loader
-
-### Plugins
-* clean-webpack-plugin
-* mini-css-extract-plugin
-* html-webpack-plugin
-
-# fresheats-demo
